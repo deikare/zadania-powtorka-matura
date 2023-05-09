@@ -38,10 +38,52 @@ Tu jest za dużo potencjalnych zadań do wypisania, więc wymienię metody
 * tw. cosinusów - gdy mamy dwa boki i kąt między nimi, to można policzyć trzeci bok, bądź gdy mamy zestaw boków, to można policzyć cosinus dowolnego kąta
 * tw. sinusów - gdy mamy 3 z 4 w dwóch parach (bok, sinus kąta naprzeciwko boku) bądź gdy chcemy policzyć coś w trójce (bok, sinus kąta naprzeciwko, R)
 
+### Protipy
+* trapez:
+    * pamiętać o średnich:
+        * odcinek łączący środki ramion, 
+        * odcinek równoległy do podstaw dzielący trapez na dwa o trapezy o równych polach, 
+        * odcinek równoległy do podstaw dzielący trapez na dwa trapezy podobne
+        * odcinek równoległy do podstaw przechodzący przez punkt przecięcia przekątnych
+    * pamiętać o tym, że jeżeli porysujemy przekątne, to dostaniemy 4 trójkąty zależne od siebie polami
+    * pamiętać, gdzie leżą środki okręgów wpisanych i opisanych (jeżeli okrąg opisany na trapezie, to trapez musi być równoramienny, w przeciwnym przypadku nie, ale istnieje zawsze charakterystyczny trójkąt prostokątny w trapezie)
+* jak klasyczna planimetria zawiedzie, to zawsze warto ratować się geometrią analityczną - wpisujemy rysunek w układ współrzędnych
+* romb to dalej równoległobok - działa np. klasyczny wzór na pole = a*h
+
 
 ## Zadania z modułami
 * RRN z modułami
-    
+    Pamiętać o dwóch typach zadań:
+    * sprowadzalne do postaci moduł z wyrażenia po jednej stronie, liczba po drugiej - proste zadania
+    * pozostałe - występują, gdy jest wiele modułów z niewiadomymi oddzielonych sumami/różnicami bądź występuje niewiadoma w i poza modułem
+    SR2: 1.106, 109, 110, 114
+    SR2: 2.300, 309
+
+## Przekształcenia wykresów funkcji
+* pamiętać o wzorach na przekształcenia
+* uważać przy modułach - gdy argument jest w bądź poza modułem lub wiele modułów z argumentami oddzielonymi sumami/różnicami, to opuszczać przypadkami identycznie, jak w przypadku pozostałych RRN z modułami
+* uważać na wredne powinnowactwo prostokątne względem osi OY
+SR1: 9.133, 134, 137
+SR2: 1.115
+SR2: 2.285 
+SR3: 2.111 (pamiętać o tym, że |x|^parzystej = x^parzystej)
+
+## RRN z parametrem!
+WAŻNE! - nie musi być funkcji kwadratowej ;)
+
+### Protipy
+* Co robić wg typu
+    * równania z parametrem - podział:
+        * równania sprowadzalne do postaci funkcja x po jednej stronie bez parametru = wyrażenie po drugiej stronie z parametrem - najprościej jest rozwiązywać w oparciu o funkcję lewej strony
+        * równania bez podstawień:
+            * liniowe - 3 typy rozwiązań
+            * układy równań - ZAWSZE robić wyznacznikami w oparciu o 3 typy
+            * kwadratowe - tutaj uważać, pewnie potrzebne będą jakieś warunki dotyczące delty, znaków miejsc zerowych (zawsze używać do nich wzorów Viete'a) + inne
+            * wielomianowe - tutaj patrzeć, ile rozwiązań dostajemy na sztywno z postaci iloczynowej, a ile rozwiązań musi mieć pozostałe równanie z parametrem
+        * równania z podstawieniami - część wspólna dwóch poprzednich typów - najpierw określamy ile rozwiązań na zmiennej x generuje jedno rozwiązanie na zmiennej t, a potem określamy warunki
+
+
+
 
 ## przekształcenie wykresów funkcji
 
@@ -77,7 +119,6 @@ Tu jest za dużo potencjalnych zadań do wypisania, więc wymienię metody
 * planimetria
     * wzór na pole dowolnego czworokąta = 1/2 * przekątna * przekątna * sinus kąta między przekątnymi
     * opis, gdzie leży środek okręgu wpisanego/opisanego w zależności od typu trójkąta/czworokąta
-    * twierdzenia o dwusiecznej w trójkącie
     
 * trygonometria
     * cotangensa
@@ -86,3 +127,4 @@ Tu jest za dużo potencjalnych zadań do wypisania, więc wymienię metody
 
 * geometria analityczna
     * wzorów na kąty między wektorami, między prostymi
+    * wygodnego sposobu liczenia pola trójkąta na podstawie 1/2 * moduł z wyznacznika pary wektorów, na których rozpięty jest trójkąt
