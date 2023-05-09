@@ -71,21 +71,58 @@ SR3: 2.111 (pamiętać o tym, że |x|^parzystej = x^parzystej)
 ## RRN z parametrem!
 WAŻNE! - nie musi być funkcji kwadratowej ;)
 
-### Protipy
-* Co robić wg typu
-    * równania z parametrem - podział:
-        * równania sprowadzalne do postaci funkcja x po jednej stronie bez parametru = wyrażenie po drugiej stronie z parametrem - najprościej jest rozwiązywać w oparciu o funkcję lewej strony
-        * równania bez podstawień:
-            * liniowe - 3 typy rozwiązań
-            * układy równań - ZAWSZE robić wyznacznikami w oparciu o 3 typy
-            * kwadratowe - tutaj uważać, pewnie potrzebne będą jakieś warunki dotyczące delty, znaków miejsc zerowych (zawsze używać do nich wzorów Viete'a) + inne
-            * wielomianowe - tutaj patrzeć, ile rozwiązań dostajemy na sztywno z postaci iloczynowej, a ile rozwiązań musi mieć pozostałe równanie z parametrem
-        * równania z podstawieniami - część wspólna dwóch poprzednich typów - najpierw określamy ile rozwiązań na zmiennej x generuje jedno rozwiązanie na zmiennej t, a potem określamy warunki
+Co robić wg typu:
+* równania z parametrem - podział:
+    * równania sprowadzalne do postaci funkcja x po jednej stronie bez parametru = wyrażenie po drugiej stronie z parametrem - najprościej jest rozwiązywać w oparciu o funkcję lewej strony
+    SR3: 2.114, 
+    SR1: 9.152, 160
+    SR2: 8.104
+    * równania bez podstawień:
+        * liniowe - 3 typy rozwiązań
+            SR2: 1.90
+        * układy równań - ZAWSZE robić wyznacznikami w oparciu o 3 typy
+            SR2: 1.160, 152, m16z10
+        * kwadratowe - tutaj uważać, pewnie potrzebne będą jakieś warunki dotyczące delty, znaków miejsc zerowych (zawsze używać do nich wzorów Viete'a) + inne
+        tu najlepiej porobić z matur
+        * wielomianowe - tutaj patrzeć, ile rozwiązań dostajemy na sztywno z postaci iloczynowej, a ile rozwiązań musi mieć pozostałe równanie z parametrem
+            SR2: 5.198, 200, 203, 197
+    * równania z podstawieniami - część wspólna dwóch poprzednich typów - najpierw określamy ile rozwiązań na zmiennej x generuje jedno rozwiązanie na zmiennej t, a potem określamy warunki równania na zmiennej pomocniczej t
+        SR2: 5.208, 207
+* nierówności/różnania - tu ZAWSZE przenosimy wszystko na jedną stronę i rysujemy wykres takich funkcji lewej strony, które spełniają warunki zadania - na podstawie tych wykresów określamy, jakie postawić warunki do rozwiązania
+    SR2: 1.99 - 105
+    SR2: 2.271-273
 
+## Wielomiany
+* podstawy: SR2: 5.12, 20, 45
+* rozpisywanie z podzielności/dzielenia z resztą: 5.72, 78, 86, 88, 89, m15z15
 
+## Ciągi
+* podstawy: SR2: 7.19, 15
+* udowadnianie monotoniczności: 7.22
+* różne zadania z ciągów geometrycznych i arytmetycznych - robić matury, 7.100, 118, 
+* granice - 7.154, 153, 156
+* szeregi - 7.167, 170, 175, 180, 185, 193
 
+## Trygonometria 2
+* przekształcenia wykresów - SR2: 8.22, 41, 42, 54
+* różne zadania: 8.67, 73, 80
+* RÓWNANIA! - wszystko z matur + 8.81 - 100
 
-## przekształcenie wykresów funkcji
+## Analiza
+* ciągłość funkcji w punkcie/przedziale: SR3: 2.41, 51
+* własność Darboux: 2.53, informator
+* asymptoty - 2.70,
+* styczne!: 2.82-87, informator, matury, zadanka z pdf
+* optymalizacja: matury!, 2.126 (jak funkcja wychodzi z pierwiastkiem, to wrzucamy argumenty pod pierwiastek i badamy funkcję podpierwiastkową), SR3: 3.188, 186, 193, 194
+
+## Geometria analityczna:
+* matury!
+* SR3: 3.36, 37, 68, 72, 86, 92, 103, 112, 120!, 135, 136, 143, 176
+
+## Prawdopodobieństwo, kombinatoryka
+* matury!
+* zadanka z pdfa
+
 
 
 ## różne śmieszne metody
